@@ -1,8 +1,8 @@
 var angle;
-var branchLen = 190;
-var branchShrink = 0.7;
-var canvasWidth = 800;
-var canvasHeight = 800;
+var branchLen = 180;
+var branchShrink = 0.7; // higher value, more dense branches/detailed tree
+var canvasWidth = 700;
+var canvasHeight = 700;
 var branchThickness = 5;
 
 function setup() {
