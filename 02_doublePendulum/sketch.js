@@ -85,8 +85,8 @@ function draw() {
   theta2 += a2_v;
 
   // Apply damping
-//   a1_v *= damping;
-//   a2_v *= damping;
+  //   a1_v *= damping;
+  //   a2_v *= damping;
 
   if (theta1 > TWO_PI) {
     theta1 = 0;
