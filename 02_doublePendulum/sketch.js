@@ -67,7 +67,7 @@ function draw() {
   damping = dampingSlider.value();
 
   // Simulate motion equations
-  
+
   let num1 = -g * (2 * m1 + m2) * sin(theta1);
   let num2 = -m2 * g * sin(theta1 - 2 * theta2);
   let num3 = -2 * sin(theta1 - theta2) * m2;
@@ -94,7 +94,7 @@ function draw() {
     trail.splice(0, 1);
   }
 
-  // Draw trail
+  // Draw the trail
   noFill();
   strokeWeight(0.5);
   stroke(0, 255, 0);
