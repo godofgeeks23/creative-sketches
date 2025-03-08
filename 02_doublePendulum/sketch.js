@@ -118,6 +118,8 @@ function draw() {
   // Update velocities
   a1_v += a1_a;
   a2_v += a2_a;
+
+  // Update angles
   theta1 += a1_v;
   theta2 += a2_v;
 
