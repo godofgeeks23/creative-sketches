@@ -5,7 +5,7 @@ let r1, r2, m1, m2, g, damping;
 let theta1, theta2, x1, y1, x2, y2;
 let a1_v, a2_v;
 
-let trail = []; // Trail points array
+let trail = []; // Trail points
 
 // Sliders and labels
 let r1Slider, r2Slider, m1Slider, m2Slider, gSlider, dampingSlider;
