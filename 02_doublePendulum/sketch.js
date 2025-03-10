@@ -90,6 +90,7 @@ function draw() {
 
   // Store trail points
   trail.push({ x: x2, y: y2 });
+  // Remove old trail points
   if (trail.length > 300) {
     trail.splice(0, 1);
   }
