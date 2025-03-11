@@ -145,6 +145,7 @@ function initializeVariables() {
 
 // Reset animation
 function resetAnimation() {
+  // clear trail & stop motion
   trail = [];
   a1_v = 0;
   a2_v = 0;
