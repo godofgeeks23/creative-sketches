@@ -12,6 +12,7 @@ let r1Slider, r2Slider, m1Slider, m2Slider, gSlider, dampingSlider;
 let labels = [];
 let resetButton, resetValuesButton;
 
+// Setup function
 function setup() {
   createCanvas(canvasWidth, canvasHeight);
   initializeVariables();
