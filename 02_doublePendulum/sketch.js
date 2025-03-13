@@ -1,6 +1,8 @@
 let canvasWidth = 700;
 let canvasHeight = 700;
 
+let backgroundGrey = 51;
+
 let r1, r2, m1, m2, g, damping;
 let theta1, theta2, x1, y1, x2, y2;
 let a1_v, a2_v;
@@ -57,7 +59,7 @@ function setup() {
 
 // Main loop
 function draw() {
-  background(51);
+  background(backgroundGrey);
   translate(width / 2, 0);
 
   // Get values from sliders
