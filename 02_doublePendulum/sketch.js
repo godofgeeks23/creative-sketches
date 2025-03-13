@@ -54,6 +54,7 @@ function setup() {
   resetValuesButton.mousePressed(resetValues);
 }
 
+// Main loop
 function draw() {
   background(51);
   translate(width / 2, 0);
