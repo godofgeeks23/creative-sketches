@@ -22,7 +22,7 @@ function branch(len) {
   strokeWeight(len / branchThickness);
   line(0, 0, 0, -len);
   translate(0, -len);
-  if (len > 3) {
+  if (len > lenLimit) {
     push();
     rotate(angle);
     branch(len * branchShrink);
