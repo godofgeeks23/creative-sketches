@@ -4,6 +4,7 @@ var branchShrink = 0.7; // higher value, more dense branches/detailed tree
 var canvasWidth = 700;
 var canvasHeight = 700;
 var branchThickness = 5;
+var lenLimit = 3;
 
 function setup() {
   createCanvas(canvasWidth, canvasHeight);
