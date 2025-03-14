@@ -10,25 +10,25 @@ function setup() {
 }
 
 function draw() {
-	background(51);
-	stroke(255);
-	translate(width/2, height);
-	branch(branchLen);
-	angle = (PI*mouseX)/width;
+  background(51);
+  stroke(255);
+  translate(width / 2, height);
+  branch(branchLen);
+  angle = (PI * mouseX) / width;
 }
 
 function branch(len) {
-	strokeWeight(len/branchThickness);
-	line(0, 0, 0, -len);
-	translate(0, -len);
-	if (len > 3) {
-		push();
-		rotate(angle);
-		branch(len * branchShrink);
-		pop();
-		push();
-		rotate(-angle);
-		branch(len * branchShrink);
-		pop();
-	}
+  strokeWeight(len / branchThickness);
+  line(0, 0, 0, -len);
+  translate(0, -len);
+  if (len > 3) {
+    push();
+    rotate(angle);
+    branch(len * branchShrink);
+    pop();
+    push();
+    rotate(-angle);
+    branch(len * branchShrink);
+    pop();
+  }
 }
