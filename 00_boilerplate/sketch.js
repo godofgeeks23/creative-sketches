@@ -1,3 +1,4 @@
+// global variables
 var canvasWidth = 700;
 var canvasHeight = 700;
 
