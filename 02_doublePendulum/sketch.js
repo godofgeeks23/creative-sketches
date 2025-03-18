@@ -14,6 +14,8 @@ let r1Slider, r2Slider, m1Slider, m2Slider, gSlider, dampingSlider;
 let labels = [];
 let resetButton, resetValuesButton;
 
+damping = 1;
+
 // Setup function
 function setup() {
   createCanvas(canvasWidth, canvasHeight);
