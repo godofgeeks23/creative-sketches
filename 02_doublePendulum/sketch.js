@@ -14,6 +14,7 @@ let r1Slider, r2Slider, m1Slider, m2Slider, gSlider, dampingSlider;
 let labels = [];
 let resetButton, resetValuesButton;
 
+// Default values
 damping = 1;
 
 // Setup function
